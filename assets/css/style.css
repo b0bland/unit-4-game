@@ -1,0 +1,25 @@
+body {
+    font-family: "Heisei Kaku Gothic W5", sans-serif;
+    margin: 20px 30px;
+}
+
+.char {
+    height: 175px;
+    width: 175px;
+    border: 5px solid green;
+    margin: 5px;
+    padding: 10px;
+    display: inline-block;
+    justify-content: center;
+}
+
+#charcont {
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+
+h1 {
+    font-size: 40px;
+}
+
