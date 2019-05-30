@@ -1,14 +1,14 @@
 $(document).ready(function() {
 
     //Initial numbers are generated, and points start at zero//
-    var playerptcount = 0;
+    
     var targetpt = Math.floor(Math.random() * 50);
     var randval1 = Math.floor(Math.random() * 5);
     var randval2 = Math.floor(Math.random() * 10);
     var randval3 = Math.floor(Math.random() * 20);
     var randval4 = Math.floor(Math.random() * (-5));
 
-    
+    var playerptcount = 0;
 
     console.log(targetpt, randval1, randval4)
     
@@ -17,14 +17,12 @@ $(document).ready(function() {
 
     $("#char1").on("click", function() {
         var current = playerptcount;
-        var newnum = current + randval1;
-        playerptcount.append(newnum);
+        playerptcount = current + randval1;
     })
 
     $("#char2").on("click", function() {
         var current = playerptcount;
-        var newnum = current + randval2;
-        playerptcount.append(newnum);
+        playerptcount = current + randval2;
     })
 
     $("#char3").on("click", function() {
