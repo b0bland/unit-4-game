@@ -1,6 +1,8 @@
 body {
     font-family: "Heisei Kaku Gothic W5", sans-serif;
     margin: 20px 30px;
+    background-image: url("../images/background-3246124_1920.jpg");
+    background-size: cover;
 }
 
 .char {
@@ -11,6 +13,7 @@ body {
     padding: 10px;
     display: inline-block;
     justify-content: center;
+    background-color: rgb(40, 141, 209);
 }
 
 #charcont {
@@ -20,7 +23,7 @@ body {
 }
 
 h1 {
-    font-size: 40px;
+    font-size: 60px;
 }
 
 #cont {
@@ -28,4 +31,28 @@ h1 {
     height: 200px;
     width: 400px;
     background-color: rgb(96, 177, 231);
+    font-size: 20px;
+}
+
+#win {
+    margin: 15px 10px;
+}
+
+#target {
+    padding-top: 15px;
+    margin-left: 10px;
+}
+
+#loss {
+    margin-left: 10px;
+}
+
+#score, #scoretext {
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+#scoretext {
+    margin-top: 20px;
+    margin-bottom: 5px;
 }
