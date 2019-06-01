@@ -6,11 +6,13 @@ This is a game where the player clicks on four different boxes. Each box has a d
 
 Work is still being done on the game, including stylistic work and fixing some code. 
 
-##Technologies Used
+## Technologies Used
+
 * HTML
 * CSS
 * Javascript
 * jQuery
 
-##Authors
+## Authors
+
 * Alfred Chan
